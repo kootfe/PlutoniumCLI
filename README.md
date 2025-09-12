@@ -1,30 +1,30 @@
-# PlutoiumCLI - Genral QoL
+# PlutoiumCLI - General QoL
+
 
 ## What is PlutoiumCLI
-PlutoiumCLI(plcli) is general Quality of Life features for your Comand Line Interface(CLI). It lets you work much faster;
+PlutoiumCLI (plcli) is a tool that provides general Quality of Life features for your Command Line Interface (CLI). It helps you work much faster.
 
 ## Features To-Do
-- [ ] Bulk Rename
-- [ ] Better Tree
-- [ ] Better ls 
-- [ ] Filtering
-- [ ] Undo/Redo
-- [ ] Plutoium PM*
-- [ ] Auto Aliases
+- [ ] Bulk rename files
+- [ ] Improved directory tree
+- [ ] Enhanced `ls` command
+- [ ] Advanced filtering
+- [ ] Undo/Redo functionality
+- [ ] Plutoium Plugin Manager (PM)
+- [ ] Automatic aliases
 
 ## What is Plutoium PM 
-PlutoiumPM(plpm) is Plutoium Plugin Manager. Lets you install packages from github, gitlab or codeberg
+PlutoiumPM (plpm) is the Plutoium Plugin Manager. It lets you install packages from GitHub, GitLab, or Codeberg.
 
 ```shell
-    plpm add <user>/<repo> -gl 
+    plpm add <user>/<repo> -gl
 ```
-> Default uses --github/-gh but also can be used --gitlab/-gl or --codeberg/-cb
+> By default, it uses `--github` (`-gh`), but you can also use `--gitlab` (`-gl`) or `--codeberg` (`-cb`).
 
 ### Using Plugin features
 
 ```shell
     plpm <pluginId> run <feature>
 ```
-
-> Can be added to .zshrc or .bashrc as alias for ease of use 
+> You can add this to your `.zshrc` or `.bashrc` as an alias for easier use.
 
